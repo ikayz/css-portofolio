@@ -78,13 +78,19 @@ h2 {
   background: rgba(54, 2, 89, 0.5);
 }
 
-.project-item-1 img {
+.project-item img {
   float: left;
   margin-right: 20px;
 }
 
-.project-item-1 {
+.project-item {
   overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px dashed #360259;
+}
+
+.project-item h3 {
+  margin-top: 0;
 }
 
 /* Work experience
