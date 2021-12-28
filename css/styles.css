@@ -8,16 +8,28 @@
 
 /* Global Styles
 ---------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  line-height: 1.5;
 }
 
 h1,
 h2 {
   font-family: "Caveat", cursive;
+  margin: 0;
 }
 
 a:hover {
@@ -26,10 +38,10 @@ a:hover {
 
 h1 {
   font-size: 100px;
+  line-height: 1;
 }
 
 h2 {
-  margin: 0;
   font-size: 45px;
 }
 
@@ -64,6 +76,15 @@ h2 {
 
 .projects a:hover {
   background: rgba(54, 2, 89, 0.5);
+}
+
+.project-item-1 img {
+  float: left;
+  margin-right: 20px;
+}
+
+.project-item-1 {
+  overflow: hidden;
 }
 
 /* Work experience
