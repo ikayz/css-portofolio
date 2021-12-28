@@ -8,22 +8,39 @@
 
 /* Global Styles
 ---------------------------------------- */
-* {
-  margin: 0;
-  padding: 0;
+body {
 }
 
 /* About
 ---------------------------------------- */
+.about {
+  background-color: #5b118c;
+  color: #fff;
+}
 
 /* Projects
 ---------------------------------------- */
+.projects {
+  background-color: #f2ede4;
+  color: #000;
+}
 
 /* Work experience
 ---------------------------------------- */
+.work-experience {
+  background-color: #8c5b49;
+  color: #fff;
+}
 
 /* Education
 ---------------------------------------- */
+.education {
+  background-color: #f2ede4;
+}
 
 /* Contact info
 ---------------------------------------- */
+footer {
+  background-color: #360259;
+  color: #fff;
+}
