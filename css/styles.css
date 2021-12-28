@@ -17,9 +17,14 @@ a:hover {
   text-decoration: none;
 }
 
+h2 {
+  margin: 0;
+}
+
 .content-wrap {
   width: 800px;
   margin: 0 auto;
+  padding: 60px;
 }
 
 /* About
@@ -42,6 +47,7 @@ a:hover {
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
+  display: inline-block;
 }
 
 .projects a:hover {
