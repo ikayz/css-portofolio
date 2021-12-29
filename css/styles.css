@@ -55,7 +55,9 @@ h2 {
 ---------------------------------------- */
 .about {
   background-color: #5b118c;
+  background-image: linear-gradient(to right, #360259, #5b118c);
   color: #fff;
+  text-align: center;
 }
 
 /* Projects
@@ -109,6 +111,19 @@ h2 {
 /* Contact info
 ---------------------------------------- */
 footer {
-  background-color: #360259;
-  color: #fff;
+  background-color: #5b118c;
+  color: #f2ede4;
+  text-align: center;
+}
+
+.contact-list {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.contact-list a {
+  padding: 15px;
+  color: #f2ede4;
+  display: inline-block;
 }
