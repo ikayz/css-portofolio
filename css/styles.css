@@ -102,6 +102,12 @@ h2 {
   color: #fff;
 }
 
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
 /* Education
 ---------------------------------------- */
 .education {
