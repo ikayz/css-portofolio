@@ -83,7 +83,6 @@ h3 {
   background-color: #5b118c;
   background-image: linear-gradient(to right, #360259, #5b118c);
   color: #fff;
-  text-align: center;
 }
 
 /* Projects
@@ -141,7 +140,6 @@ h3 {
 footer {
   background-color: #5b118c;
   color: #f2ede4;
-  text-align: center;
 }
 
 .contact-list {
@@ -159,6 +157,10 @@ footer {
 /* Media queries
 ---------------------------------------- */
 @media screen and (min-width: 750px) {
+  header,
+  footer {
+    text-align: center;
+  }
   .project-item img {
     float: left;
     margin-right: 20px;
