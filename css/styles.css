@@ -106,11 +106,6 @@ h3 {
   background: rgba(54, 2, 89, 0.5);
 }
 
-.project-item img {
-  float: left;
-  margin-right: 20px;
-}
-
 .project-item {
   overflow: hidden;
   padding: 20px 0;
@@ -165,4 +160,13 @@ footer {
   padding: 15px;
   color: #f2ede4;
   display: inline-block;
+}
+
+/* Media queries
+---------------------------------------- */
+@media screen and (min-width: 750px) {
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
 }
