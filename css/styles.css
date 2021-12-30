@@ -143,9 +143,7 @@ footer {
 }
 
 .contact-list {
-  display: flex;
   list-style-type: none;
-  justify-content: center;
 }
 
 .contact-list a {
@@ -161,6 +159,10 @@ footer {
   footer {
     text-align: center;
   }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
   .project-item img {
     float: left;
     margin-right: 20px;
@@ -168,7 +170,7 @@ footer {
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 20px;
+    column-gap: 20px;
   }
 }
 
@@ -179,5 +181,11 @@ footer {
   }
   h2 {
     line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+  .contact-list {
+    padding: 0;
   }
 }
