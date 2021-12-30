@@ -49,18 +49,32 @@ h3 {
   margin-bottom: 0;
 }
 
-h3 + p {
+.item-details h3 + p {
   font-style: italic;
 }
 
-h3 ~ p {
+.item-details h3 ~ p {
   margin: 0;
 }
 
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px;
+}
+
+.divider > section {
+  border-bottom: 1px dashed #360259;
+  padding: 25px 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+.divider.item-details > section {
+  border-bottom-color: #f2ede4;
 }
 
 /* About
@@ -100,7 +114,6 @@ h3 ~ p {
 .project-item {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px dashed #360259;
 }
 
 .project-item h3 {
@@ -124,6 +137,14 @@ h3 ~ p {
 ---------------------------------------- */
 .education {
   background-color: #f2ede4;
+  background-image: url("../images/joanna-kosinska-unsplash.jpg");
+  background-size: cover;
+  background-position: top right;
+  padding-top: 100px;
+}
+
+.education p {
+  width: 60%;
 }
 
 /* Contact info
