@@ -172,6 +172,9 @@ footer {
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
   }
+  img {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -187,5 +190,8 @@ footer {
   }
   .contact-list {
     padding: 0;
+  }
+  img {
+    width: 320px;
   }
 }
